@@ -1,0 +1,180 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+button:focus {
+  outline: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+
+/* start global properties  */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,'Roboto', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+/* end global properties  */
+
+/*Start landing page*/
+
+/* start header section*/
+header .logo {
+    width: 100px;
+    height: 50px;
+}
+header .bg-light {
+    background-color:#fff !important;
+}
+header .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+header .nav-item.active a {
+    color:#7c7c7c !important;
+    border-bottom: 1px solid #7c7c7c;
+}
+header .nav-item a {
+    color:black !important;
+    font-weight: bold;
+}
+header .icon-container {
+    display:inline-flex;
+    margin-left:25px;
+}
+/* end header section*/
+ /* start business section  */
+ .business {
+     padding-top:70px;
+     padding-bottom:70px;
+ }
+ .business .content-container {
+     padding-top:50px;
+ }
+ .business .content-container h2 {
+     color:#474747;
+     margin-bottom: 20px;
+ }
+ .business .content-container h2 .true {
+     color:black;
+ }
+ .business .content-container p {
+     font-size: 18px;
+     color:#7c7c7c;
+ }
+ .business .content-container .read {
+     background-color:black;
+     color:#fff;
+     border-radius: 0;
+     width:180px;
+     margin-top:25px;
+ }
+ /* end business section  */
+/*End landing page*/
