@@ -370,4 +370,13 @@ header .icon-container {
      font-size: 18px;
  }
  /* end section contacnt us  */
+ /* start footer  */
+ .footer {
+     padding-top:30px;
+     padding-bottom:30px;
+     background-color:#000000;
+     color:#fff;
+     text-align: center;
+ }
+ /* end footer  */
 /*End landing page*/
