@@ -177,4 +177,95 @@ header .icon-container {
      margin-top:25px;
  }
  /* end business section  */
+ .achievements {
+     padding-top:70px;
+     padding-bottom:70px;
+     position: relative;
+ }
+ .achievements .item-container {
+     position: absolute;
+     top:10px;
+     z-index: 3;
+ }
+ .achievements .item-container .item {
+     min-width:300px;
+     min-height: 200px;
+     border:1px solid #eee;
+     box-shadow:5px 1px 15px -8px #000000;
+     border-radius: 5px;
+     background-color:#fff;
+ }
+ .achievements .item-container .item.first {
+     margin-left:25px;
+ }
+ .achievements .item-container .item.third {
+     margin-right:25px;
+ }
+ .achievements .item-container .item.middle {
+     margin:auto;
+     width: 325px;
+ }
+ .achievements .item-container .item .content {
+     padding:15px;
+     text-align: center;
+ }
+ .achievements .item-container .item .content h6 {
+     font-weight: bold;
+     margin-bottom:10px;
+ }
+ .achievements .item-container .item .content p{
+     color:#7c7c7c;
+ }
+ .achievements .achievements-content {
+     background-color:black;
+     padding-top:70px;
+     padding-bottom:70px;
+     color:#fff;
+     min-height: 600px;
+
+ }
+ .achievements .achievements-content .heading {
+     text-align: center;
+     margin-top:10%;
+ }
+ .achievements .achievements-content .heading .text-holder {
+     width:60%;
+     margin:auto;
+     margin-top:20px;
+ }
+ .achievements .achievements-content .heading .text-holder p {
+     font-size:16px;
+ }
+ .achievements .awards {
+     margin-top:70px;
+ }
+ .achievements .awards .holder {
+     text-align: center;
+ }
+ .achievements .awards .holder h5{
+    font-size:36px;
+ }
+ /* start section results  */
+ .results {
+     padding-bottom:50px;
+
+ }
+ .results .read {
+    background-color:black;
+    color:#fff;
+    border-radius: 0;
+    width:180px;
+    margin-top:25px;
+ }
+ .results .text-content h4 {
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom:20px;
+ }
+ .results .text-content p{
+     color:#555555;
+     font-size:16px;
+     line-height: 1.5;
+ }
+ /* end section results  */
 /*End landing page*/
