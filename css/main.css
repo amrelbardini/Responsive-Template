@@ -343,6 +343,7 @@ header .icon-container {
  .started .content .start-button {
      background-color:#fff;
      color:#333;
+     border-radius: 0;
  }
  /* end section get started  */
  /* start section contact us  */
