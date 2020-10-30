@@ -137,10 +137,17 @@ header .navbar-expand-lg .navbar-nav {
     justify-content: flex-end;
     width: 100%;
 }
-header .nav-item.active a {
+
+header .navbar-light .navbar-nav .nav-link{
+    margin-left:5px;
+    margin-right:5px;
+}
+header .navbar-light .navbar-nav .nav-link:hover,
+header .nav-item.active a{
     color:#7c7c7c !important;
     border-bottom: 1px solid #7c7c7c;
 }
+
 header .nav-item a {
     color:black !important;
     font-weight: bold;
@@ -149,11 +156,29 @@ header .icon-container {
     display:inline-flex;
     margin-left:25px;
 }
+@media(max-width:1023px){
+    header .navbar-expand-lg .navbar-nav {
+        flex-direction: unset;
+        display: inline;
+    }
+    header .icon-container{
+        margin-left:0;
+    }
+
+}
 /* end header section*/
  /* start business section  */
  .business {
      padding-top:70px;
      padding-bottom:70px;
+ }
+ @media(max-width:1023px){
+     .business{
+         padding-bottom:20px;
+         padding-top:20px;
+         text-align: center;
+     }
+
  }
  .business .content-container {
      padding-top:50px;
@@ -182,11 +207,20 @@ header .icon-container {
      padding-bottom:70px;
      position: relative;
  }
+ @media(max-width:1023px){
+    .achievements{
+        padding-top:20px;
+        padding-bottom:20px;
+        text-align: center;
+    }
+
+ }
  .achievements .item-container {
      position: absolute;
      top:10px;
      z-index: 3;
  }
+
  .achievements .item-container .item {
      min-width:300px;
      min-height: 200px;
@@ -245,10 +279,36 @@ header .icon-container {
  .achievements .awards .holder h5{
     font-size:36px;
  }
+ @media(max-width:1023px){
+    .achievements .item-container{
+        position: relative;
+        z-index: 1;
+        top:0;
+    }
+    .achievements .item-container .item.middle,
+    .achievements .item-container .item.first, 
+    .achievements .item-container .item.third{      
+        max-width: 300px;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    .achievements .awards .holder{
+        margin-bottom:20px;
+    }
+
+ }
  /* start section results  */
  .results {
      padding-bottom:50px;
 
+ }
+ @media(max-width:1023px){
+     .results{
+         text-align: center;
+     }
+     .results .progress-container{
+         min-height: 250px;
+     }
  }
  .results .read {
     background-color:black;
@@ -276,6 +336,7 @@ header .icon-container {
      height: 100%;
      padding:10px;
      position: relative;
+     overflow-y: hidden;
  }
  .results .progress-container .progressbar{
      height: 90%;
@@ -308,6 +369,11 @@ header .icon-container {
  .services {
      padding-top:70px;
      padding-bottom:70px;
+ }
+ @media(max-width:1023px){
+    .services{
+        text-align: center;
+    }
  }
  .services .text-content {
      margin-top:20px;
